@@ -1,0 +1,52 @@
+.quartel_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.keys{
+ font-size: 14px;
+color: #1D1D1F;
+letter-spacing: -0.18px;
+text-align: center;
+line-height: 18.62px;
+font-weight: 600;
+width: 35px;
+height: 19px;
+border-right: 1px solid gray;
+border-bottom: 1px solid gray;
+padding: 7px 9px;
+cursor: pointer;
+}
+.valuse_items{
+font-size: 14px;
+color: #1D1D1F;
+letter-spacing: -0.18px;
+text-align: center;
+line-height: 18.62px;
+font-weight: 600;
+width: 35px;
+height: 19px;
+/* border-right: 1px solid gray; */
+border-bottom: 1px solid gray;
+padding: 3px 12px 8px 13px;
+ cursor: pointer;
+}
+.valuse_items:hover{
+    background-color: blue;
+    border-radius:30px;
+    color: #FFFF;
+}
+.quartel_buttons{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    top:34px;
+}
+.empty{
+  background:#FFFF(41, 151, 255, 0.2);
+  border-radius: 6px;
+  min-width: 197px;
+  height: 48px; 
+  margin: 10px; 
+}

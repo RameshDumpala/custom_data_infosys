@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import Common from "./CommonComponent/Common"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
- 
+ <Common/>
     </div>
   );
 }

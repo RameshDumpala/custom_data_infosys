@@ -1,0 +1,63 @@
+.week_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}.custom_week{
+    width: 248px;
+    height: 48px;
+    background: rgba(41,151,255,0.20);
+    border-radius: 6px;
+}
+li{
+    list-style: none;
+}
+ 
+.selected_box {
+    background: rgba(41, 151, 255, 0.20);
+    border-radius: 6px;
+    min-width: 194px;
+    height: 48px;
+    position: absolute;
+    left: 33%;
+    line-height: 50px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ 
+
+ 
+
+.box_items_container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+    right: 260px;
+    height: 86px;
+}
+.quarter_week {
+    position: relative;
+    bottom: 10px;
+}
+
+.week_key {
+    position: relative;
+    right: 25px;
+    bottom: 40px;
+    
+}
+.scroll_bar_container{
+    overflow-y: scroll;
+  scrollbar-color: red orange;
+  scrollbar-width: thin;
+  height: 200px;
+  width: 400px;
+
+}
+ 

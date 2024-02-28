@@ -1,0 +1,99 @@
+.popup {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.dialogcontainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.box {
+  background: #ffffff;
+  border: 1px solid #d2d2d7;
+  box-shadow: 0 9px 12px -5px rgba(0, 0, 0, 0.16),
+    0 -2px 12px -5px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  width:666px;
+  height:470px;
+  position: relative;
+  top: 10%;
+}
+.buttons_div {
+  display: flex;
+  justify-content: center;
+}
+.btn_x {
+  height: 41px;
+  position: absolute;
+  font-size: xx-large;
+  border: none;
+  left: 9px;
+  top: 4px;
+  background-color: #ffff;
+  color: #86868b;
+  cursor: pointer;
+}
+.Year_color{
+    font-size: 30px;
+    color: #0066cc;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 600;
+    width: 135px;
+    height: 36px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.Year{
+    font-size: 30px;
+    color: #d2d2d7;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 600;
+    width: 135px;
+    height: 36px;
+    margin: 0px 10px;
+    cursor: pointer; 
+}
+.Quarterly {
+  font-size: 30px;
+  color: #d2d2d7;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+  width: 135px;
+  height: 36px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.Quarterly_color {
+  font-size: 30px;
+  color: #0066cc;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+  width: 135px;
+  height: 36px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.home {
+  background-color: orange;
+  border-radius: 4px;
+  padding: 4px;
+}
+.hr_color {
+  border: 1px solid #0066cc;
+}
+.hr1_color {
+  border: 1px solid #0066cc;
+}
